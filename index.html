@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote from a Bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Quote from a Bot</h1>
+      <p>Select a character and see<br />what's on their mind!</p>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="characters">
+          <div class="character" data-character="Ash Ketchum">
+            <img src="./images/ash-ketchum.png" />
+          </div>
+          <div class="character" data-character="Batman">
+            <img src="./images/batman.png" />
+          </div>
+          <div class="character" data-character="Homer Simpson">
+            <img src="./images/homer-simpson.png" />
+          </div>
+          <div class="character" data-character="Hermione Granger">
+            <img src="./images/hermione-granger.png" />
+          </div>
+          <div class="character" data-character="Gandalf">
+            <img src="./images/gandalf.png" />
+          </div>
+          <div class="character" data-character="Harley Quinn">
+            <img src="./images/harley-quinn.png" />
+          </div>
+          <div class="character" data-character="Shrek">
+            <img src="./images/shrek.png" />
+          </div>
+          <div class="character" data-character="Barbie">
+            <img src="./images/barbie.png" />
+          </div>
+          <div class="character" data-character="Minion">
+            <img src="./images/minion.png" />
+          </div>
+          <div class="character" data-character="Joey">
+            <img src="./images/joey.png" />
+          </div>
+          <div class="character" data-character="Kira Yamoto">
+            <img src="./images/kira-yamoto.png" />
+          </div>
+          <div class="character" data-character="Doctor House">
+            <img src="./images/doctor-house.png" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="loading hidden">
+      <img src="./images/loader.gif" alt="loader" />
+    </div>
+
+    <div class="modal hidden">
+      <div class="modal-box">
+        <div class="modal-close">
+          <svg
+            width="19"
+            height="19"
+            viewBox="0 0 19 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M17 2L2 17" stroke="#1212B2" stroke-width="3" />
+            <path d="M2 2L17 17" stroke="#1212B2" stroke-width="3" />
+          </svg>
+        </div>
+        <div class="modal-content">
+          <h2>Ash Ketchum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <code>Lorem ipsum dolor sit amet.</code>
+        </div>
+      </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
